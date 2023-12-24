@@ -1,0 +1,176 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+.outer-box-container {
+    width: 500px; 
+    height:500px;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background: linear-gradient(135deg,#FF41AF,#b8e6fc,#ffffff);
+
+}
+
+
+.border-box {
+    height: auto;
+    width: 360px; 
+    padding: 20px; 
+    background-color: #ffffff; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+:root{
+    font-family: "Pretendard",sans-serif;
+    line-height: 1.5;
+}
+
+.card-top{
+    padding: 1em 1em 0;
+    height: 6.5em;
+}
+
+
+
+.card {
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+
+    background: url(./public/6f9a3f5b421daa527ac457fb8ae51b3e7bdcadfe_2_690x433.webp);
+    background-size: cover;
+    background-position: 0 55%;
+    color: white;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+
+    text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+}
+
+.card-number {
+    display: flex;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 0.6em;
+
+    height: 1.15em;
+
+    font-family: 
+    
+
+    
+}
+
+
+.form {
+    width: 320px;
+}
+
+
+.form label,
+.form .label {
+    font-size: 0.8rem;
+}
+
+.form-cardNumber,
+.form-cardDate,
+.form-cardName {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title{
+    color: black;
+    margin-bottom: 0.5em;
+}
+
+.form input,
+.form select {
+  height: 2em;
+  border-radius: 5px;
+  border: 1px solid #777;
+  padding: 2px 8px;
+}
+
+.form select {
+  height: 2.45em;
+}
+
+
+.form-wrapper {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: space-between;
+
+}
+
+.card-number span {
+    transition: transform 0.1s ease;
+    will-change: transform;
+}
+
+
+.typed {
+    transform: translateY(-15px);
+}
+
+
+.card-number span:nth-child(4n) {
+    margin-right: 0.5em;
+}
+
+
+.card-wrapper {
+    display: flex;
+    margin-left: 1.5em;
+    flex-direction: column;
+}
+
+
+.card-date {
+    font-size: 1rem;
+    margin-bottom: 0.2em;
+    align-items: center;
+    padding-left: 5em;
+
+}
+
+.card-date span {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    width: 2rem;
+}
+
+
+.card-date span{
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 0.6rem;
+    width: 2.5rem;
+}

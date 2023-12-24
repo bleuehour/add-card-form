@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Card form</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="outer-box-container">
+        <div class="border-box">
+          <div class="card">
+            <div class="card-wrapper">
+              <div class="card-top"></div>
+              <!-- WJOTE BACKGROUND WITH GREY BOX?-->
+              <div class="card-number">
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+                <span># <br /></span>
+              </div>
+              <div class="card-date"><span>Exp end </span> 01/23</div>
+              <div class="card-name">Monzo member</div>
+            </div>
+          </div>
+
+          <section>
+            <h2 class="form-title"></h2>
+            <form class="form">
+              <div class="form-wrapper">
+                <div class="form-cardNumber">
+                  <label for="">Card Number</label>
+                  <input type="text" id="cardNumber" for="" maxlength="16" />
+                </div>
+                <div class="form-cardDate">
+                  <span class="label">Expiration Date</span>
+                  <div>
+                    <label for="expired-month"></label>
+                    <select name="expired-month" id="expired-month">
+                      <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+                      <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                    </select>
+                    <label for="expired-year"></label>
+                    <select name="expired-year" id="expired-year">
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                      <option value="32">32</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-cardName">
+                <label for="cardName">Cardholder Name</label>
+                <input type="text" name="" id="cardName" maxlength="26" />
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <script src="tilt.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
