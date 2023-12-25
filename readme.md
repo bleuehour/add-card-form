@@ -5,5 +5,3 @@
 [View here](https://add-card-form.vercel.app/)
 
 ![alt text](./images/formss-gif.gif)
-
-![alt text](./images/formss.PNG)
