@@ -27,21 +27,24 @@ function updateCardNumber() {
     if (!match.test(e.target.value)) {
       return;
     }
+
     const index = e.target.value.length - 1;
+
     if (e.data === null) {
       if (Math.abs(currentNumber.length - e.target.value.length) === 1) {
-        numberSpanTags[index + 1].innerHTML = `<span>#<br/></span>`;
+        numberSpanTags[index + 1].innerHTML = `#`;
         numberSpanTags[index + 1].classList.remove("typed");
       } else {
         let i = e.target.value.length;
+
         while (i < 16) {
-          numberSpanTags[i].innerHTML = `<span>#<br/></span>`;
+          numberSpanTags[i].innerHTML = `#`;
           numberSpanTags[i].classList.remove("typed");
           i += 1;
         }
       }
     } else {
-      numberSpanTags[index].innerHTML = `<span>#<br/>${e.data}</span>`;
+      numberSpanTags[index].innerHTML = `<br/>${e.data}`;
       numberSpanTags[index].classList.add("typed");
       currentNumber = e.target.value;
     }
